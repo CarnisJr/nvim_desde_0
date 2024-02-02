@@ -34,7 +34,7 @@ return {
         vim.lsp.buf.format { async = true }
       end, opts)
     end
-
+    
     require("lspconfig").jdtls.setup({ on_attach = on_attach, })
     require("lspconfig").lua_ls.setup({on_attach = on_attach,})
   end
