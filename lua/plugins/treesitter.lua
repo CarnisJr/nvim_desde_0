@@ -9,6 +9,7 @@ return {
       "lua",
       "luadoc",
       "java",
+      "c",
     },
     hightlight = {
       enable = true,

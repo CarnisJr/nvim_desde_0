@@ -23,7 +23,6 @@ function M.setup()
       },
     },
   }
-
   -- <c-k> is my expansion key
   -- this will expand the current item or jump to the next item within the snippet.
   vim.keymap.set({ "i", "s" }, "<c-k>", function()
