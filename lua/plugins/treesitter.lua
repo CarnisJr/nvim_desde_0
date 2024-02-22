@@ -10,6 +10,10 @@ return {
       "luadoc",
       "java",
       "c",
+      "bash",
+      "html",
+      "css",
+      "javascript",
     },
     hightlight = {
       enable = true,

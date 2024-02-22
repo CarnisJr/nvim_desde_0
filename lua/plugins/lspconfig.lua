@@ -34,8 +34,13 @@ return {
         vim.lsp.buf.format { async = true }
       end, opts)
     end
-    require("lspconfig").jdtls.setup({ on_attach = on_attach, })
+
+    require("lspconfig").jdtls.setup({ on_attach = on_attach,})
     require("lspconfig").lua_ls.setup({on_attach = on_attach,})
     require("lspconfig").clangd.setup({on_attach = on_attach,})
+    require("lspconfig").bashls.setup({on_attach = on_attach,})
+    require("lspconfig").tsserver.setup({on_attach = on_attach,})
+    require("lspconfig").html.setup({on_attach = on_attach,})
+    require("lspconfig").cssls.setup({on_attach = on_attach,})
   end
 }
